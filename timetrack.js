@@ -8,6 +8,6 @@ const hoursAvailable = document.querySelector("#hoursAvailable");
 let sleepNum = 0;
 
 const hoursUsed = () => {
-  sleepNum = parsInt(sleep.value);
+  sleepNum = parseInt(sleep.value);
   hoursAvailable.innerText = sleepNum;
 };
